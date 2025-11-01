@@ -142,10 +142,15 @@ fi
 iface=$(ip route show default | awk '{print $5}' | head -n1)
 if [[ -n "$iface" ]]; then
   echo "默认网卡: $iface"
-  if command -v tc >/dev/null 2>&1 && tc qdisc show dev "$iface" | grep -qE "$QDISC"; then
-    echo "✅ $QDISC 已应用"
+  if command -v tc >/dev/null 2>&1; then
+    current_qdisc=$(tc qdisc show dev "$iface" 2>/dev/null | awk 'NR==1 {print $2}')
+    if [[ "${current_qdisc:-}" == "$QDISC" ]]; then
+      echo "✅ $QDISC 已应用"
+    else
+      echo "⚠️ $QDISC 未检测到，当前为: ${current_qdisc:-未知}"
+    fi
   else
-    echo "⚠️ $QDISC 未检测到，请检查配置"
+    echo "⚠️ 未安装 tc，无法验证队列调度器"
   fi
 else
   echo "⚠️ 无法识别默认网卡，跳过验证"
