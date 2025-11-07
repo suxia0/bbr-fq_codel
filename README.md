@@ -26,6 +26,7 @@
 - **时间戳备份**：配置文件备份包含时间戳，避免覆盖
 - **自动模块加载**：检测并加载tcp_bbr模块
 - **带宽测试**：可选的iperf3带宽测试功能
+- **灵活测速**：可通过`--skip-speedtest`参数跳过iperf3安装与测速
 - **全面诊断**：显示系统信息、网络配置和优化结果
 - **错误处理**：完善的错误处理和用户提示
 
@@ -37,6 +38,12 @@ wget -O bbr.sh https://raw.githubusercontent.com/suxayii/bbr-fq_codel/refs/heads
 chmod +x bbr.sh
 sudo ./bbr.sh fq_codel
 ```
+
+### 可选参数
+
+- `--skip-speedtest`：跳过iperf3安装和本地测速
+- `-q/--qdisc <fq|fq_codel>`：显式指定默认队列算法
+- `-h/--help`：显示帮助信息
 
 ### 回滚备份
 ```bash
