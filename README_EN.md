@@ -28,6 +28,8 @@ A powerful one-click BBR network optimization script that automatically configur
 - **Automatic Module Loading**: Detects and loads tcp_bbr module
 - **Bandwidth Testing**: Optional iperf3 bandwidth testing functionality
 - **Comprehensive Diagnostics**: Displays system information, network configuration, and optimization results
+- **IPv6 Awareness**: Automatically detects IPv6 support and writes related parameters only when available
+- **Safe Writes**: Skip unchanged sysctl values to reduce unnecessary configuration churn
 - **Error Handling**: Robust error handling with user-friendly prompts
 
 ## 🚀 Quick Start
@@ -150,5 +152,5 @@ For any questions or suggestions, please submit an Issue or contact us.
 
 ---
 
-*Script Version: v5.1*
+*Script Version: v5.2*
 *Last Updated: 2025*
