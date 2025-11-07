@@ -27,6 +27,7 @@ A powerful one-click BBR network optimization script that automatically configur
 - **Timestamped Backup**: Configuration backups include timestamps to prevent overwriting
 - **Automatic Module Loading**: Detects and loads tcp_bbr module
 - **Bandwidth Testing**: Optional iperf3 bandwidth testing functionality
+- **Flexible Speed Test**: Skip iperf3 installation and test via `--skip-speedtest`
 - **Comprehensive Diagnostics**: Displays system information, network configuration, and optimization results
 - **Error Handling**: Robust error handling with user-friendly prompts
 
@@ -38,6 +39,12 @@ wget -O bbr.sh https://raw.githubusercontent.com/suxayii/bbr-fq_codel/refs/heads
 chmod +x bbr.sh
 sudo ./bbr.sh fq_codel
 ```
+
+### Optional Arguments
+
+- `--skip-speedtest`: Skip iperf3 installation and the local throughput test
+- `-q/--qdisc <fq|fq_codel>`: Explicitly set the default queueing discipline
+- `-h/--help`: Print the built-in help message
 
 ### Rollback backup
 ```bash
