@@ -34,7 +34,7 @@
 
 ### 下载并运行脚本
 ```bash
-wget -O bbr.sh https://raw.githubusercontent.com/suxayii/bbr-fq_codel/refs/heads/master/bbr-fq.sh
+wget -O bbr.sh https://raw.githubusercontent.com/suxia0/bbr-fq_codel/refs/heads/master/bbr-fq.sh
 chmod +x bbr.sh
 sudo ./bbr.sh fq_codel
 ```
