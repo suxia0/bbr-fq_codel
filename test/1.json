@@ -1,0 +1,37 @@
+{
+  "video": {
+    "comXHS-vid2": "https://a.jiejing.fun/?url=",
+    "vid": "http://api.xiaoyizi.vip/api.php?url=",
+    "vid2": "https://link.apadog.com/pocketDog/video/get?shareUrl=",
+
+    "regex": {
+      "vidz": "KDxzY3JpcHQuKj8+Lio/KSg/PTxzY3JpcHR8JCk=",
+      "vidz2": "ImgyNjUiOlxbXHsuKj8ibWFzdGVyVXJsIjoiKGh0dHA6W14iXSspIg=="
+    }
+  },
+
+  "image": {
+    "XHS-pic": "https://api.mynxn.cn/my/api.php",
+    "XHS-pic-key": "ab4359a424862777c161e9981afea8a3",
+    "XHS-pic-key2": "ab4359a424862777c161e9981afea8a3",
+    "XHS-pic-url": "&type=normal&url="
+  },
+
+  "live": {
+    "api": "https://xiaohongshu.day/api/note"
+  },
+
+  "auth": {
+    "openid": "wx6faa203f7810f01b",
+    "aut": "RuoYouShiWu"
+  },
+
+  "message": {
+    "download": "✅已保存",
+    "download_multi": "张图片(公众号:疯果科技)免费提供",
+    "video": "✅视频已保存(公众号:疯果科技)免费提供",
+    "failed": "❌保存失败(公众号:疯果科技)免费提供",
+    "news": "⚠️解析失败请重试(免费提供)",
+    "low_quality": "⚠️该视频清晰度低于720,不提供下载(疯果科技)"
+  }
+}
