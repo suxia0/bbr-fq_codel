@@ -1,0 +1,7 @@
+{
+  "version": "1.2.0",
+  "hasUpdate": true,
+  "forceUpdate": false,
+  "updateUrl": "https://example.com/app-release.apk",
+  "description": "修复已知问题，优化用户体验"
+}
