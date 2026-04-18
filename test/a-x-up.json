@@ -2,6 +2,6 @@
   "version": "1.2.8",
   "hasUpdate": true,
   "forceUpdate": false,
-  "updateUrl": "https://s3.dynabic.com/hostize/dTR2XHLduN-VIiUN5x0lR.apk?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=8OOHXD4SU1VP6ZDWSUR0%2F20260418%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260418T071642Z&X-Amz-Expires=60&X-Amz-Signature=eaa4ff0b9d41ca1e433512cfc56c310de2a21cf066cd1a7184c160eba0cf5f17&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22__UNI__A1404C0__20260417182946.apk%22%3B%20filename%2A%3DUTF-8%27%27__UNI__A1404C0__20260417182946.apk&response-content-type=application%2Fvnd.android.package-archive&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+  "updateUrl": "https://cdn.gh-proxy.org/https://github.com/suxia0/bbr-fq_codel/raw/refs/heads/master/test/__UNI__A1404C0__20260417182946.apk",
   "description": "修复已知问题，优化用户体验"
 }
